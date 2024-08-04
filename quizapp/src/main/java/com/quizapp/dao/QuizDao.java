@@ -1,6 +1,6 @@
-package com.quizapp.quizapp.dao;
+package com.quizapp.dao;
 
-import com.quizapp.quizapp.entities.Quiz;
+import com.quizapp.entities.Quiz;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

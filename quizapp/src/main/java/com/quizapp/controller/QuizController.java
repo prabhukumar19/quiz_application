@@ -1,11 +1,11 @@
-package com.quizapp.quizapp.controller;
+package com.quizapp.controller;
 
-import com.quizapp.quizapp.entities.QuestionWrapper;
-import com.quizapp.quizapp.service.QuizService;
+import com.quizapp.entities.Response;
+import com.quizapp.entities.QuestionWrapper;
+import com.quizapp.service.QuizService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import com.quizapp.quizapp.entities.Response;
 
 import java.util.List;
 

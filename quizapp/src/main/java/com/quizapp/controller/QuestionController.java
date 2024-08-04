@@ -1,7 +1,7 @@
-package com.quizapp.quizapp.controller;
+package com.quizapp.controller;
 
-import com.quizapp.quizapp.entities.Question;
-import com.quizapp.quizapp.service.QuestionService;
+import com.quizapp.entities.Question;
+import com.quizapp.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,4 @@
-package com.quizapp.quizapp.entities;
+package com.quizapp.entities;
 
 import lombok.*;
 

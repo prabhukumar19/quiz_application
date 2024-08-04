@@ -1,11 +1,11 @@
-package com.quizapp.quizapp.service;
+package com.quizapp.service;
 
-import com.quizapp.quizapp.dao.QuestionDao;
-import com.quizapp.quizapp.dao.QuizDao;
-import com.quizapp.quizapp.entities.Question;
-import com.quizapp.quizapp.entities.QuestionWrapper;
-import com.quizapp.quizapp.entities.Quiz;
-import com.quizapp.quizapp.entities.Response;
+import com.quizapp.entities.Quiz;
+import com.quizapp.entities.Response;
+import com.quizapp.dao.QuestionDao;
+import com.quizapp.dao.QuizDao;
+import com.quizapp.entities.Question;
+import com.quizapp.entities.QuestionWrapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
